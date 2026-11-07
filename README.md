@@ -20,4 +20,5 @@ connect.php maakt een connectie met de database
 
 # wat het (nog) niet doet
 
-* alles netjes met een command migreren
+* alles netjes met 1 command migreren
+* zonder de migration.php aan te passen een rollback doen
