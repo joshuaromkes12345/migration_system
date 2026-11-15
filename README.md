@@ -8,4 +8,4 @@ migrate: ```php handler.php migrate```
 
 migration rollback ```php handler.php migrate:rollback```
 
-migration systeem is heel eenvoudig, kijk in ```migration/app/main.php``` als je het wilt leren.
+migration systeem is heel eenvoudig, kijk in ```migrations/app/main.php``` als je het wilt leren.
