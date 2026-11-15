@@ -1,24 +1,9 @@
-# migration_system
-Migration system in php voor SQLITE
+# db_tools
 
-in de database folder moet je een SQLITE database maken genaamd ```database``` (of je veranderd de naam van de database in connect.php)
+de handler.php handle alle dingen zoals nieuwe migration, de migration en rollback.
 
-# structuur van systeem
+nieuwe migration: ```php handler.php new_migration```
 
-### migration.php
+migrate: ```php handler.php migrate```
 
-migration.php is een placeholder voor een echte migration. De structuur is bijna precies hetzelfde als dat van de Laravel migration systeem.
-
-### main.php
-
-main.php houdt alle functies van het systeem zoals drop, init_table, table_content.
-
-### connect.php
-
-connect.php maakt een connectie met de database
-
-
-# wat het (nog) niet doet
-
-* alles netjes met 1 command migreren
-* zonder de migration.php aan te passen een rollback doen
+migration rollback ```php handler.php migrate:rollback```

@@ -1,3 +1,6 @@
 # Databases
 
 *.sqlite
+
+# overig
+*.txt
